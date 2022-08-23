@@ -46,7 +46,7 @@
 
 .main {
     position:relative;
-    left:8.4%;
+    left:30%;
     width:35%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     margin-top: 20px;
@@ -71,4 +71,22 @@
 
 .imgbox {
     width:100%;
+}
+
+.rightSide_container {
+    width: 25%;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: -0.5rem;
+}
+
+.rightSide_box {
+    margin: 0.5rem;
+    background: #f4f4f8;
+    border: 3px solid #b59214;
+    color: #b59214;
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
 }
