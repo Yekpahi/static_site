@@ -1,48 +1,70 @@
-.test-detail {
-    background-color:brown;
-    width: 80%;
-    margin: 0px auto;
-    padding:30px;
-    
-}
-.test-detail p {
-    color:white;
-    text-align:justify;
-    font-weight: bold;
-    padding:50px;
-    background-color:rgb(95, 55, 158);
+/* Header */
+
+.header {
+    background-color: rgb(219, 233, 233);
 }
 
-@media screen and (min-width: 450px) and (max-width: 1200px){
-    .test-detail {
-        background-color:rgb(255, 255, 255);
-        width: 60%;
-        margin: 0px auto;
-        border: 1px solid black;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    }
-    .test-detail p {
-        color:rgb(90, 36, 36);
-        text-align:justify;
-        font-weight: bold;
+.navhaut {
+    background-color: rgb(22, 108, 165);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+.navhaut li{
+    margin-right: 50px;
+}
+.navbarli {
+    position: relative;
+    left:54%;
+}
+.abonner{
+    background-color: red;
+    padding: 5px;
+    position: relative;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: white;
+}
+.mediumo {
+    position: relative;
+    left:50%;
+}
+.inscrire span{
+    margin-left: 5px;
 
-    }
 }
 
-@media screen and (max-width: 450px){
-    .test-detail {
-        background-color:rgb(144, 89, 216);
-        width: 60%;
-        margin: 0px auto;
-        border: 1px solid black;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    }
-    .test-detail p {
-        color:rgb(240, 220, 220);
-        text-align:justify;
-        font-weight: bold;
-    }
+.connecter span{
+    margin-left: 5px;
+
 }
+.searchbar {
+    position: relative;
+}
+
+.searchbar_input {
+    padding-left: 30px;
+    width: 300%;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 20px;
+}
+
+.navbas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.navbas li{
+    margin-right: 50px;
+}
+/* Main*/
 
 .main {
     position:relative;
