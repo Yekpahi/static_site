@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/course_read.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header_navbar">
+            <ul class="navhaut">
+                <li class=" logo">Logo</li>
+                <li class="searchbar"><input class="searchbar_input" type="text" placeholder="Rechercher ..."></li>
+                <li class="mediumo home"><i class="fa fa-home" style="font-size:24px"></i></li>
+                <li class="mediumo media"><i class="fa fa-caret-square-o-right" style="font-size:24px"></i></li>
+                <li class="navbarli inscrire"><i class='fa fa-address-book'
+                        style="font-size:24px"></i><span>S'incrire</span></li>
+                <li class="navbarli connecter"> <i class='fa fa-address-card-o' style="font-size:24px"></i><span>Se
+                        connecter</span> </li>
+                <li class="navbarli abonner"><span>S'abonner</span> </li>
+            </ul>
+            <ul class="navbas">
+                <li>Afrique</li>
+                <li>Europe</li>
+                <li>Amerique</li>
+                <li>Afrique</li>
+                <li>Europe</li>
+                <li>Amerique</li>
+                <li>Afrique</li>
+                <li>Europe</li>
+                <li>Amerique</li>
+            </ul>
+        </nav>
+
+        </div>
+    </header>
+    <aside class="leftside">
+        <h4>Vos informations</h4>
+        <ul class="lefside_ul1">
+            <li><i class='fa fa-address-book-o'></i><span>Abu Ben Riu </span></li>
+            <li><i class='fa fa-bar-chart'></i><span>Votre role </span></li>
+            <li><i class='fa fa-thumb-tack'></i><span>Liste des cours suivis </span></li>
+            <li><i class='fa fa-signal'></i><span>Liste des cours terminés</span></li>
+            <li><i class='fa fa-reply-all'></i><span>parametre compte</span></li>
+            <li><i class='fa fa-book'></i><span>Vos cours </span></li>
+            <li><i class='fa fa-cart-arrow-down'></i><span>Mode de paiement</span></li>
+            <li><i class='fa fa-cog'></i><span>Modifier profil </span></li>
+            <li><i class='fa fa-folder-open-o'></i><span>Desactiver profil </span></li>
+            <li><i class='fa fa-line-chart'></i><span>Supprimer profil </span></li>
+        </ul>
+        <h4>Vos informations</h4>
+        <ul class="lefside_ul2">
+            <li><i class='fa fa-address-book-o'></i><span>Abu Ben Riu </span></li>
+            <li><i class='fa fa-bar-chart'></i><span>Votre role </span></li>
+            <li><i class='fa fa-thumb-tack'></i><span>Liste des cours suivis </span></li>
+            <li><i class='fa fa-signal'></i><span>Liste des cours terminés</span></li>
+            <li><i class='fa fa-reply-all'></i><span>parametre compte</span></li>
+            <li><i class='fa fa-book'></i><span>Vos cours </span></li>
+            <li><i class='fa fa-cart-arrow-down'></i><span>Mode de paiement</span></li>
+            <li><i class='fa fa-cog'></i><span>Modifier profil </span></li>
+            <li><i class='fa fa-folder-open-o'></i><span>Desactiver profil </span></li>
+            <li><i class='fa fa-line-chart'></i><span>Supprimer profil </span></li>
+        </ul>
+
+    </aside>
+    <div class="main">
+        <h1>Titre de la léçon</h1>
+        <h3>Titre du chapitre en cours ...</h3>
+        <div class="video_container">
+                <video id='video' controls="controls" preload='none' width="600" poster="https://assets.codepen.io/32795/poster.png">
+                  <source id='mp4' src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+                  <source id='webm' src="http://media.w3.org/2010/05/sintel/trailer.webm" type='video/webm' />
+                  <source id='ogv' src="http://media.w3.org/2010/05/sintel/trailer.ogv" type='video/ogg' />
+                  <!--
+                        Track to be used for accessibility using the VTT standard. 
+              
+                        See https://www.html5rocks.com/en/tutorials/track/basics/ for more information on how to use text tracks
+                      -->
+                  <track kind="subtitles" label="English subtitles" src="subtitles_en.vtt" srclang="en" default>
+                  </track>
+                  <!-- 
+                      We can also add more than one text track and let the user choose which one to play. There is now way to 
+                      currently do this with the built in controls so it'll have to be scripted -->
+                  <track kind="subtitles" label="Deutsche Untertitel" src="subtitles_de.vtt" srclang="de">
+                  </track>
+              
+                  <!-- 
+                        We're not using Flash as a fallback option. It should be coverage enough to 
+                      -->
+                  <p>Your user agent does not support the HTML5 Video element.</p>
+                </video>
+                <ul>
+                    <li>leçon precedente</li>
+                    <li class="lecon_active">leçon en cours</li>
+                    <li>leçon suivante</li>
+                </ul>
+              </div> <!-- End Container -->
+              <div class="disc_lesson">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur delectus omnis sunt expedita, 
+                    sequi ratione perferendis odit error possimus consequuntur tenetur vitae, optio quaerat harum, quo sint tempora repellendus iste!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, error autem odio magni sapiente velit ad dicta saepe perspiciatis 
+                    exercitationem culpa adipisci ab cumque assumenda nesciunt soluta nihil deserunt quia?
+                </p>
+              </div>
+    </div>
+</body>
+
+</html>

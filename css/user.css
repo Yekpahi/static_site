@@ -1,0 +1,49 @@
+
+.userinfo {
+    width:60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.userinfo img {
+    position: relative;
+    left: 10%;
+    width:150px;
+    height:150px;
+    border-radius :50%;
+    border: 10px solid black;
+
+}
+
+#ul23 {
+    width:60%;
+    background-color: antiquewhite;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:30%;
+    bottom:150px;
+
+   
+}
+#ul23 li {
+    margin-right: 10px;
+}
+
+#ul24 {
+    width:60%;
+    background-color: antiquewhite;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:30%;
+    bottom:150px;
+
+   
+}
+#ul24 li {
+    margin-right: 10px;
+}
